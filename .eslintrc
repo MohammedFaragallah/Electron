@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "react-app", "prettier", "prettier/react"
+    ],
+    "rules": {
+        "react/destructuring-assignment": [0],
+        "react/prop-types": [0],
+        "no-console": [0],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "trailingComma": "es5",
+                "singleQuote": true
+            }
+        ]
+    },
+    "plugins": [
+        "prettier", "react", "import"
+    ]
+}
